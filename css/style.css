@@ -109,7 +109,9 @@ form{
 }
 
 form button{
-    display:block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     height: 44px;
     width: 318px;
     background-color: rgb(0, 119, 197);
@@ -122,7 +124,7 @@ form button{
 }
 
 form button img{
-    padding: 3px 10px;
+    padding: 5px 10px;
 }
 
 #disclaimer{
@@ -154,4 +156,17 @@ form button img{
 
 #captcha a{
     font-size: 10px;
+}
+
+footer a{
+    margin: 0 5px;
+    color:rgb(80, 80, 80);
+}
+
+footer{
+    font-size: 12px;
+    color:rgb(80, 80, 80);
+    text-align: center;
+    margin-top: 25px;
+    line-height: 18px;
 }
